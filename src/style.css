@@ -15,37 +15,29 @@ html, body {
 /* header */
 .header{
     width: 100%;
-    background-color: white;
-}
-.header h2{
-    float: left;
-    margin-left: 10%;
-}
-.header .links{
-    margin-right: 5%;
+    height: 60%;
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: right;
+    margin-top: 2%;
 }
-.header .links .link-list{
+.header .header-image-container{
+    width: 100%;
     display: flex;
-    margin-left: auto;
-    list-style: none;
+    justify-content: center;
+    align-items: center;
 }
-.header .links .link-list li{
-    padding: 13px;
+.header .header-image-container img{
+    width: 40%;
+    opacity: 0.85;
 }
-.header .links .link-list li a{
-    color: #666;
-    text-decoration: none;
-    font-size: larger;
+.header .header-image-container h1{
+    position: absolute;
+    color: white;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.8);
 }
-.header .links .link-list li a:hover{
-    color: #333;
-}
-.header .links .link-list li a:active{
-    color: #555;
-}
+
 /* introduction */
 .introduction-container{
     margin-top: 5px;
