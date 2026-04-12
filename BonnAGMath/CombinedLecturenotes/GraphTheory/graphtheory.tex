@@ -57,6 +57,9 @@
 \DeclareMathOperator{\QCoh}{QCoh}
 \DeclareMathOperator{\Coh}{Coh}
 %\newcommand*{\name}[\num_arguments][default values]{{\color{#1}\Large #2}}
+\newcommand*{\Z}{\mathbb{Z}}
+\newcommand*{\Q}{\mathbb{Q}}
+\newcommand*{\R}{\mathbb{R}}
 \newcommand*{\multivar}[2]{{#1_1,\cdots,#1_{#2}}}
 \newcommand*{\localization}[2]{#1_{\mathfrak{#2}}}
 \newcommand*{\ringedspacemorph}[1]{(#1,#1^{\#})}
@@ -67,75 +70,19 @@
 \newcommand{\tens}[1]{%
   \mathbin{\mathop{\otimes}\displaylimits_{#1}}%
 }
-\title{ボン補習校高校数学}
-\author{}
+\title{グラフ理論}
+\author{ボン補習校高校数学}
 \date{}
 
 \begin{document}
 
 \maketitle
-\begin{problem}
-次の数の平方根を答えよ
-\begin{equation*}
-4, 36, 81
-\end{equation*}
-\end{problem}
 
-\begin{proof}[解答]
-\begin{equation*}
-\pm2, \pm6, \pm9
-\end{equation*}
-\end{proof}
+\section{グラフとは}
 
-\begin{problem}
-$xy$-平面上で点$(0,1),(2,5)$を通る直線の式を求めよ。
-\end{problem}
+\subsection{いろいろなグラフ}
 
-\begin{proof}[解答]
-傾きは
-\begin{equation*}
-{\frac {5-1} {2-0}} = {\frac 4 2} = 2.
-\end{equation*}
-$y$切片は$1$なので、答えは
-\begin{equation*}
-y = 2x+1.
-\end{equation*}
-\end{proof}
 
-\begin{problem}
-三角形の三つの辺の長さの組みを$(a,b,c)$のように書く。次のうちで直角三角形なものはどれか
-\begin{equation*}
-(3,4,5),(1,1,1),(5,12,12)
-\end{equation*}
-\end{problem}
-
-\begin{proof}[解答]
-ピタゴラスの定理の逆を使います。$(a,b,c)$が辺の長さの三角形($c$が一番長い)において
-\begin{equation*}
-a^2+b^2=c^2
-\end{equation*}
-となればそれは直角三角形となる。これが成り立つのは$(3,4,5)$のみ。
-\end{proof}
-
-\begin{problem}
-有理数の定義を書け。またある数$x$が有理数なことを$x\in \mathbb{Q}$と書く。また無理数な時$x\not\in \mathbb{Q}$と書く。この書き方を用いて次の数が有理数か有理数でないか答えよ。
-\begin{equation*}
-24\:, {\frac 3 4}\:, 1.5\:, \sqrt{7}\:,\pi
-\end{equation*}
-\end{problem}
-
-\begin{proof}[解答]
-\begin{definition}
-ある二つの整数$a,b$により
-\begin{equation*}
-{\frac a b}
-\end{equation*}
-という形で表される数を有理数という。
-\end{definition}
-\begin{equation*}
-24,{\frac 3 4},1.5={\frac 3 2}\in\mathbb{Q},\sqrt{7},\pi\not\in\mathbb{Q}
-\end{equation*}
-\end{proof}
 
 
 \end{document}

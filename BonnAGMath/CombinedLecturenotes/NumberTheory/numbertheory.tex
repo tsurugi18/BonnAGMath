@@ -1,0 +1,228 @@
+\documentclass{ltjsarticle}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{ mathrsfs }
+\usepackage{enumerate}
+\usepackage{bbm}
+\usepackage{lipsum}
+\usepackage{fancyhdr}
+\usepackage{tikz-cd} 
+\usetikzlibrary{graphs}
+\usepackage{luatexja-ruby} 
+\usepackage{graphicx} 
+\graphicspath{ {./images/} }
+
+\newtheorem{theorem}{定理}[section] 
+\newtheorem{proposition}{命題}[section] 
+\newtheorem{definition}{定義}[section] 
+\newtheorem{problem}{問題}
+\newtheorem{postulate}{公準}[section] 
+\newtheorem{lemma}{Lemma}[section] 
+\newtheorem{notation}{Notation}[section] 
+\newtheorem{remark}{注釈}[section] 
+\newtheorem{corollary}{系}[section] 
+\newtheorem{terminology}{Terminology}[section] 
+\newtheorem{example}{例}[section] 
+\newtheorem{step}{手順} 
+\newtheorem{solution}{解答}[section] 
+\newtheorem{fact}{事実}[section] 
+
+
+\DeclareMathOperator{\diam}{diam}
+\DeclareMathOperator{\Gal}{Gal}
+\DeclareMathOperator{\rank}{rank}
+\DeclareMathOperator{\Hom}{Hom}
+\DeclareMathOperator{\Dom}{Dom}
+\DeclareMathOperator{\Ann}{Ann}
+\DeclareMathOperator{\grad}{grad}
+\DeclareMathOperator{\Span}{Span}
+\DeclareMathOperator{\interior}{int}
+\DeclareMathOperator{\ind}{ind}
+\DeclareMathOperator{\supp}{supp}
+\DeclareMathOperator{\ob}{ob}
+\DeclareMathOperator{\Spec}{Spec}
+\DeclareMathOperator{\MaxSpec}{MaxSpec}
+\DeclareMathOperator{\PreSh}{PreSh}
+\DeclareMathOperator{\Sh}{Sh}
+\DeclareMathOperator{\Fun}{Fun}
+\DeclareMathOperator{\Ext}{Ext}
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\Ker}{Ker}
+\DeclareMathOperator{\Image}{Im}
+\DeclareMathOperator{\Coker}{Coker}
+\DeclareMathOperator{\id}{id}
+\DeclareMathOperator{\Mod}{Mod}
+\DeclareMathOperator{\QCoh}{QCoh}
+\DeclareMathOperator{\Coh}{Coh}
+%\newcommand*{\name}[\num_arguments][default values]{{\color{#1}\Large #2}}
+\newcommand*{\Z}{\mathbb{Z}}
+\newcommand*{\Q}{\mathbb{Q}}
+\newcommand*{\R}{\mathbb{R}}
+\newcommand*{\multivar}[2]{{#1_1,\cdots,#1_{#2}}}
+\newcommand*{\localization}[2]{#1_{\mathfrak{#2}}}
+\newcommand*{\ringedspacemorph}[1]{(#1,#1^{\#})}
+\newcommand*{\sheaf}[2]{(#1,{\mathcal{#2}}_{#1})}
+\newcommand{\fib}[1]{%
+  \mathbin{\mathop{\times}\limits_{#1}}%
+}
+\newcommand{\tens}[1]{%
+  \mathbin{\mathop{\otimes}\displaylimits_{#1}}%
+}
+\title{整数論}
+\author{ボン補習校高校数学}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{合同式}
+\subsection{余のある計算}
+
+\begin{definition}
+$n$を自然数とする。整数$a,b$が$n$を法として合同とは
+\begin{equation*}
+b-a=nk
+\end{equation*}
+となる整数$k$が存在することである。これを
+\begin{equation*}
+a\equiv b \mod{n}
+\end{equation*}
+と書く。
+\end{definition}
+
+次の三つは全て同じ意味です。
+\begin{center}
+\begin{enumerate}[1).]
+\item $a,b$は$n$を法として合同。
+\item $b-a$は$n$の倍数。
+\item $a,b$を$n$で割った時の余りが同じ。
+\end{enumerate}
+\end{center}
+
+このように、別の言葉を使って数学的に全く同じことを言える時、それらの条件は\ltjruby{同値}{どうち}であると言います。
+
+\begin{example}他の分野でも上のような同値な条件があります。たとえば、
+\begin{enumerate}[1).]
+\item 三角形$ABC$は正三角形である（それぞれの辺の長さが等しい）。
+\item 三角形$ABC$の三つの角度が全て等しい（それぞれ$60^\circ$である）。
+\end{enumerate}
+\end{example}
+
+\begin{definition}
+整数$p$が素数であるとは、どんな二つの整数$a,b$に対して$ab$が$p$の倍数ならば$a$もしくは$b$が$p$の倍数である時のことである。
+\end{definition}
+
+上の定義の例を見てみましょう。例えば$p=7$の時、$a=10,b=9$としたら$ab=90$は$7$の倍数でないので$a,b$どちらも$7$の倍数ではありません。逆に$2\times 3=6$は素数ではないです。$a=4,b=9$とすると$ab=36$で$6$の倍数になりますが$4,9$どちらも$6$の倍数ではありません。これを合同式を使って言い換えると次のようになります。
+\begin{proposition}
+$p$が素数であるとは
+\begin{equation*}
+ab\equiv 0\mod{p}
+\end{equation*}
+ならば
+\begin{equation*}
+a\equiv 0\mod{p}\text{もしくは}b\equiv0\mod{p}
+\end{equation*}
+となる。
+\label{prop_prime_element_mod}
+\end{proposition}
+
+\begin{proposition}
+$p$を素数とする。整数$a,b,c$について考える。もし
+\begin{equation*}
+a\not\equiv 0\mod{p}
+\end{equation*}
+で
+\begin{equation*}
+ab \equiv ac\mod{p}
+\end{equation*}
+ならば
+\begin{equation*}
+b\equiv c\mod{p}
+\end{equation*}
+\label{prop_injectivity_multiplication}
+\end{proposition}
+
+\begin{proof}[証明]条件を使って
+\begin{equation*}
+ab-ac\equiv0\mod{p}
+\end{equation*}
+となる。よって
+\begin{equation*}
+a(b-c)\equiv 0 \mod{p}
+\end{equation*}
+ここで$p$は素数かつ$a\equiv0\mod{p}$より
+\begin{equation*}
+b-c\equiv0\mod{p}\Rightarrow b\equiv c\mod{p}
+\end{equation*}
+\end{proof}
+
+$p=5$の時を考えます。あまりの可能性は$0,1,2,3,4$です。これらにそれぞれ$3$をかけてみます。
+\begin{align*}
+3\times 0 &\equiv 0 \mod{5}\\
+3\times 1 &\equiv 3 \mod{5}\\
+3\times 2 &\equiv 6\equiv 1 \mod{5}\\
+3\times 3 &\equiv 9\equiv4 \mod{5}\\
+3\times 4 &\equiv 12\equiv 2 \mod{5}\\
+\end{align*}
+
+このように五つそれぞれ異なる余りになりました。命題\ref{prop_injectivity_multiplication}の言っていることが少しわかりやすくなったと思います。ここで三番目の
+\begin{equation*}
+3\times 2 \equiv 6\equiv 1 \mod{5}\\
+\end{equation*}
+
+に注目してみます。このように掛け算をしたら$1$となるペアはどのようなあまりにも存在するでしょうか。
+\begin{proposition}
+$p$を素数とする。もし$a\equiv0\mod{p}$なら$ab\equiv1\mod{1}$となる整数$b$がある。
+\end{proposition}
+\begin{proof}[証明]
+命題\ref{prop_injectivity_multiplication}を使う。$p=5$の時に見たように
+\begin{equation*}
+a\times 0,a\times 1,\cdots,a\times (p-1)
+\end{equation*}
+はそれぞれ$p$個の異なる余りを持つ。あまりの可能性も$p$個しかないので$a\times b\equiv1\mod{p}$となる$b$がある。
+\end{proof}
+同じ論理で次のことも言えます。
+\begin{proposition}
+$p$を素数とする。$a\equiv0\mod{p}$なら$ab\equiv1\mod{p}$となる$b$は一つしかない。
+\end{proposition}
+\begin{proposition}
+$p$を素数とする。$p$を法として自分自身が逆数となる数は$1,-1$のみである。
+\end{proposition}
+\begin{proof}[証明]
+自分自身が逆数になるとは
+\begin{equation*}
+x^2=1\mod{p}
+\end{equation*}
+となることである。$1$を左辺に移して
+\begin{equation*}
+x^2-1\equiv 0\mod{p}
+\end{equation*}
+左辺を因数分解して
+\begin{equation*}
+(x-1)(x+1)\equiv 0\mod{p}
+\end{equation*}
+命題\ref{prop_prime_element_mod}を使うと
+\begin{equation*}
+x-1\equiv0\mod{p}\text{もしくは}x+1\equiv 0\mod{p}
+\end{equation*}
+よって$x\equiv\pm1\mod{p}$。
+\end{proof}
+\begin{theorem}[Wilsonの定理]
+$p$を素数とする。次のことが成り立つ。
+\begin{equation*}
+(p-1)!\equiv -1\mod{p}
+\end{equation*}
+\end{theorem}
+\begin{theorem}[Fermatの小定理]
+$p$を素数とする。次のことが成り立つ。
+\begin{equation*}
+a^{p-1}\equiv 1\mod{p}
+\end{equation*}
+\end{theorem}
+\begin{proof}
+
+\end{proof}
+\end{document}
