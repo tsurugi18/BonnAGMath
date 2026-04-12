@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.10.19)  12 APR 2026 19:26
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.10.19)  12 APR 2026 19:28
  restricted system commands enabled.
  file:line:error style messages enabled.
 **graphtheory.tex
@@ -1092,26 +1092,23 @@ Package luatex.def Info: ./images/cycles.png  used on input line 192.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images/complete_graphs.png, id=31, 642.4pt x 172.645pt>
-File: ./images/complete_graphs.png Graphic file (type png)
-<use ./images/complete_graphs.png>
-Package luatex.def Info: ./images/complete_graphs.png  used on input line 203.
-(luatex.def)             Requested size: 321.19922pt x 86.32228pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 
 [3<./images/simplegraph.png><./images/paths.png>]
-<./images/subgraph.png, id=39, 803.0pt x 401.5pt>
+<./images/complete_graphs.png, id=37, 642.4pt x 172.645pt>
+File: ./images/complete_graphs.png Graphic file (type png)
+<use ./images/complete_graphs.png>
+Package luatex.def Info: ./images/complete_graphs.png  used on input line 204.
+(luatex.def)             Requested size: 321.19922pt x 86.32228pt.
+<./images/subgraph.png, id=38, 803.0pt x 401.5pt>
 File: ./images/subgraph.png Graphic file (type png)
 <use ./images/subgraph.png>
-Package luatex.def Info: ./images/subgraph.png  used on input line 215.
+Package luatex.def Info: ./images/subgraph.png  used on input line 216.
 (luatex.def)             Requested size: 240.90186pt x 120.45091pt.
-<./images/induced_subgraph.png, id=40, 570.13pt x 296.10625pt>
+<./images/induced_subgraph.png, id=39, 570.13pt x 296.10625pt>
 File: ./images/induced_subgraph.png Graphic file (type png)
 <use ./images/induced_subgraph.png>
-Package luatex.def Info: ./images/induced_subgraph.png  used on input line 227.
+Package luatex.def Info: ./images/induced_subgraph.png  used on input line 228.
 
 (luatex.def)             Requested size: 171.04031pt x 88.83255pt.
 
@@ -1141,7 +1138,7 @@ Here is how much of LuaTeX's memory you used:
  1088 words of node memory still in use:
    10 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 216 attribute, 56 glue_sp
 ec, 29 attribute_list, 2 write, 13 user_defined nodes
-   avail lists: 1:29,2:22266,3:250,4:237,5:82,6:40,7:2107,8:45,9:895,10:19,11:1
+   avail lists: 1:29,2:19196,3:218,4:219,5:82,6:37,7:2056,8:45,9:788,10:19,11:1
  41082 multiletter control sequences out of 65536+600000
  79 fonts using 49943399 bytes
  125i,7n,128p,1855b,537s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1158,7 +1155,7 @@ type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy7.pfb>
-Output written on graphtheory.pdf (5 pages, 294963 bytes).
+Output written on graphtheory.pdf (5 pages, 295040 bytes).
 
 PDF statistics: 109 PDF objects out of 1000 (max. 8388607)
  58 compressed objects within 1 object stream
