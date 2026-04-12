@@ -82,7 +82,172 @@
 
 \subsection{いろいろなグラフ}
 
+グラフとは大まかにいうと、点とそれらをつなぐ線でてきた図のことです。例えば以下のような種類があります。
+\begin{example}[単純グラフ]
+もっともシンプルなグラフ。点とそれらをつなぐ線のみで作られている。 後に学びますが異なる点の間にある線は最大で一つのみかつ自分と自分をつなぐ線（ループ）が存在しないようなグラフのことを単純グラフと呼びます。
+\begin{center}
+\begin{figure}[h]
+	\centering
+    \includegraphics[scale=0.175]{graph}
+    \caption{単純グラフ}
+    \label{fig:simp_graph}
+\end{figure}
+\end{center}
+\end{example}
+\begin{example}[有向グラフ]
+線に方向をつけたグラフ。道路などで一方通行の道や、電流、水の流れなど何か方向があるものを表すのに便利。
+\begin{center}
+\begin{figure}[h]
+	\centering
+    \includegraphics[scale=0.3]{directed_graph}
+    \caption{有向グラフ}
+    \label{fig:directed_graph}
+\end{figure}
+\end{center}
+\end{example}
+\begin{example}[重み付きグラフ]
+点を街、線をそれらをつなぐ道路とした時に、移動にかかる時間の情報を線に追加して表すのに便利なグラフ。また流れる電気回路における電気抵抗を考える時などにも便利。
+\begin{center}
+\begin{figure}[h]
+	\centering
+    \includegraphics[scale=0.2]{weighted_graph}
+    \caption{重み付きグラフ}
+    \label{fig:weighted_graph}
+\end{figure}
+\end{center}
+\end{example}
 
+この授業では主に単純グラフのことを勉強します。
+
+\subsection{単純グラフ}
+
+
+
+\begin{definition}
+グラフとは二つの集合のペア$(V,E)$で次の条件を満たすものである。
+\begin{enumerate}[i).]
+\item $V$を頂点の集合といい、$n$個の頂点があることを$V=\{1,2,3,\cdots,n\}$と書く。
+\item $E$を辺の集合といい、二つの頂点$v,w\in V$をつなぐ辺があることを$\{v,w\}\in E$と書く。
+\end{enumerate}
+\end{definition}
+
+この書き方を使って最初の単純グラフ
+\begin{center}
+\begin{figure}[h]
+	\centering
+    \includegraphics[scale=0.14]{graph}
+    \caption{単純グラフ}
+    \label{fig:simplegraph_example}
+\end{figure}
+\end{center}
+を書いてみましょう。全部で$6$個の頂点があるので$V=\{1,\cdots,6\}$。辺は
+\begin{equation*}
+E=\{\{1,2\},\{1,5\},\{2,3\},\{2,5\},\{3,4\},\{4,5\},\{4,6\}\}
+\end{equation*}
+と書ける。
+
+\begin{definition}
+単純グラフとは、グラフのうち次の条件を満たすものである。
+\begin{enumerate}[i).]
+\item 二つの点の間には最大で一つの辺がある。
+\item 自分自身を繋ぐ辺はない。
+\end{enumerate}
+\end{definition}
+
+\begin{example}[単純グラフと非単純グラフ]\:
+\begin{enumerate}
+\item （左）は単純グラフ。
+\item （真ん中）点の間に二つ以上の辺があるので単純グラフではない。
+\item （右）自分自身を繋ぐ辺があるので単純グラフではない。
+\end{enumerate}
+\begin{center}
+\begin{figure}[h]
+	\centering
+    \includegraphics[scale=0.3]{simplegraph}
+    \caption{単純グラフの例}
+    \label{fig:simple_graph}
+\end{figure}
+\end{center}
+\end{example}
+
+単純グラフの中にも様々な形のグラフが存在します。
+
+\begin{definition}
+次のように始まりと終わりがあり、一直線に描けるグラフのことを道という。$n$この頂点を持つ道のことを$P_n$と書く。
+\begin{center}
+\begin{figure}[h]
+	\centering
+    \includegraphics[scale=0.5]{paths}
+    \caption{道の例}
+    \label{fig:path}
+\end{figure}
+\end{center}
+\end{definition}
+
+\begin{definition}
+次のように輪っかのように描けるグラフのことを閉路グラフという。$n$この頂点を持つ閉路グラフのことを$C_n$と書く。
+\begin{center}
+\begin{figure}[h]
+	\centering
+    \includegraphics[scale=0.5]{cycles}
+    \caption{閉路グラフの例}
+    \label{fig:cycle}
+\end{figure}
+\end{center}\end{definition}
+
+\begin{definition}
+次のように異なる二つの頂点の間に辺がちょうど一つあるグラフを完全グラフという。$n$この頂点を持つ完全グラフのことを$K_n$と書く。
+\begin{center}
+\begin{figure}[h]
+	\centering
+    \includegraphics[scale=0.5]{complete_graphs}
+    \caption{完全グラフの例}
+    \label{fig:complete_graph}
+\end{figure}
+\end{center}\end{definition}
+
+
+\begin{definition}
+グラフ$(V,E)$の部分グラフ$(V',E')$は$V'\subseteq V,E'\subseteq E$となるようなグラフである。要するに、元のグラフから必要な頂点を辺を選んで作ったグラフのことである。
+\begin{center}
+\begin{figure}[h]
+	\centering
+    \includegraphics[scale=0.3]{subgraph}
+    \label{fig:subgraph}
+    \caption{部分グラフの例}
+\end{figure}
+\end{center}
+\end{definition}
+
+\begin{definition}
+部分グラフのうち、選んだ頂点をつなぐ辺全てを含んでいるものを誘導部分グラフという。
+\begin{center}
+\begin{figure}[h]
+	\centering
+    \includegraphics[scale=0.3]{induced_subgraph}
+    \caption{誘導部分グラフの例、赤い頂点以外を選んだ}
+    \label{fig:induced_subgraph}
+\end{figure}
+\end{center}
+\end{definition}
+\:\\\\\\\\\:
+\begin{remark}
+図9は誘導部分グラフではない。なぜなら$C,D$と$D,E$をつなぐ辺が元のグラフにはあるのに、部分グラフには含まれていないからである。
+\end{remark}
+
+
+
+\begin{definition}
+どんな二つの頂点においても二つをつなぐ道が部分グラフとしてあるときに、このグラフを連結グラフという。また繋がっている頂点を全てまとめた誘導部分グラフを連結成分という。
+\begin{center}
+\begin{figure}[h]
+	\centering
+    \includegraphics[scale=0.5]{components}
+    \caption{このグラフは三つの連結成分よりなる}
+    \label{fig:my_label}
+\end{figure}
+\end{center}
+\end{definition}
 
 
 \end{document}

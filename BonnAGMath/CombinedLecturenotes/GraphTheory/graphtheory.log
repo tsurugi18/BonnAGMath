@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.10.19)  12 APR 2026 13:23
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.10.19)  12 APR 2026 19:26
  restricted system commands enabled.
  file:line:error style messages enabled.
 **graphtheory.tex
@@ -929,10 +929,9 @@ minute'.)
 \c@step=\count333
 \c@solution=\count334
 \c@fact=\count335
-
-No file graphtheory.aux.
-
+ (./graphtheory.aux)
 \openout1 = graphtheory.aux
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
 LaTeX Font Info:    ... okay on input line 77.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
@@ -953,6 +952,7 @@ LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 77.
 LaTeX Font Info:    ... okay on input line 77.
 LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 77.
 LaTeX Font Info:    ... okay on input line 77.
+
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count336
@@ -1004,11 +1004,131 @@ LaTeX Font Info:    Trying to load font information for U+rsfs on input line 79
 (/usr/local/texlive/2025/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 13.31586pt on input line 81.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 13.31586pt on input line 81.
+LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
+(Font)              scaled to size 13.31586pt on input line 81.
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 13.31586pt on input line 81.
+(load cache: extra_haranoajigothic-medium.luc)(load cache: extra_lmsans12-regula
+r.luc)
+LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
+(Font)              scaled to size 11.09656pt on input line 83.
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 11.09656pt on input line 83.
+(load cache: extra_lmroman10-italic.luc)
+LaTeX Font Info:    Font shape `JT3/mc/m/it' in size <10> not available
+(Font)              Font shape `JT3/mc/m/n' tried instead on input line 86.
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 86.
+LaTeX Font Info:    Font shape `JY3/mc/m/it' in size <10> not available
+(Font)              Font shape `JY3/mc/m/n' tried instead on input line 86.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 86.
+(load cache: extra_lmroman10-bold.luc)
+LaTeX Font Info:    Font shape `JT3/mc/b/n' in size <10> not available
+(Font)              Font shape `JT3/gt/m/n' tried instead on input line 86.
+LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 86.
+LaTeX Font Info:    Font shape `JY3/mc/b/n' in size <10> not available
+(Font)              Font shape `JY3/gt/m/n' tried instead on input line 86.
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 86.
+<./images/graph.png, id=4, 963.6pt x 638.385pt>
+File: ./images/graph.png Graphic file (type png)
+<use ./images/graph.png>
+Package luatex.def Info: ./images/graph.png  used on input line 91.
+(luatex.def)             Requested size: 168.63252pt x 111.71904pt.
+(load cache: extra_lmroman9-regular.luc)
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 8.32242pt on input line 92.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 8.32242pt on input line 92.
+<./images/directed_graph.png, id=5, 451.6875pt x 281.05pt>
+File: ./images/directed_graph.png Graphic file (type png)
+<use ./images/directed_graph.png>
+Package luatex.def Info: ./images/directed_graph.png  used on input line 102.
+(luatex.def)             Requested size: 135.5073pt x 84.31564pt.
+
 
 [1
 
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./graphtheory.aux)
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./images/
+graph.png><./images/directed_graph.png>]
+<./images/weighted_graph.png, id=19, 963.6pt x 437.635pt>
+File: ./images/weighted_graph.png Graphic file (type png)
+<use ./images/weighted_graph.png>
+Package luatex.def Info: ./images/weighted_graph.png  used on input line 113.
+(luatex.def)             Requested size: 192.71658pt x 87.52544pt.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 6.47299pt on input line 127.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 4.62357pt on input line 127.
+File: ./images/graph.png Graphic file (type png)
+<use ./images/graph.png>
+Package luatex.def Info: ./images/graph.png  used on input line 138.
+(luatex.def)             Requested size: 134.90308pt x 89.37328pt.
+
+
+[2<./images/weighted_graph.png>]
+<./images/simplegraph.png, id=28, 676.5275pt x 238.8925pt>
+File: ./images/simplegraph.png Graphic file (type png)
+<use ./images/simplegraph.png>
+Package luatex.def Info: ./images/simplegraph.png  used on input line 166.
+(luatex.def)             Requested size: 202.95981pt x 71.66829pt.
+<./images/paths.png, id=29, 346.29375pt x 213.79875pt>
+File: ./images/paths.png Graphic file (type png)
+<use ./images/paths.png>
+Package luatex.def Info: ./images/paths.png  used on input line 180.
+(luatex.def)             Requested size: 173.14644pt x 106.89911pt.
+<./images/cycles.png, id=30, 853.1875pt x 246.9225pt>
+File: ./images/cycles.png Graphic file (type png)
+<use ./images/cycles.png>
+Package luatex.def Info: ./images/cycles.png  used on input line 192.
+(luatex.def)             Requested size: 426.59271pt x 123.46094pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images/complete_graphs.png, id=31, 642.4pt x 172.645pt>
+File: ./images/complete_graphs.png Graphic file (type png)
+<use ./images/complete_graphs.png>
+Package luatex.def Info: ./images/complete_graphs.png  used on input line 203.
+(luatex.def)             Requested size: 321.19922pt x 86.32228pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[3<./images/simplegraph.png><./images/paths.png>]
+<./images/subgraph.png, id=39, 803.0pt x 401.5pt>
+File: ./images/subgraph.png Graphic file (type png)
+<use ./images/subgraph.png>
+Package luatex.def Info: ./images/subgraph.png  used on input line 215.
+(luatex.def)             Requested size: 240.90186pt x 120.45091pt.
+<./images/induced_subgraph.png, id=40, 570.13pt x 296.10625pt>
+File: ./images/induced_subgraph.png Graphic file (type png)
+<use ./images/induced_subgraph.png>
+Package luatex.def Info: ./images/induced_subgraph.png  used on input line 227.
+
+(luatex.def)             Requested size: 171.04031pt x 88.83255pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[4<./images/cycles.png><./images/complete_graphs.png><./images/subgraph.png>]
+<./images/components.png, id=44, 310.15875pt x 163.61125pt>
+File: ./images/components.png Graphic file (type png)
+<use ./images/components.png>
+Package luatex.def Info: ./images/components.png  used on input line 245.
+(luatex.def)             Requested size: 155.079pt x 81.80542pt.
+
+
+[5<./images/induced_subgraph.png><./images/components.png>] (./graphtheory.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1016,22 +1136,32 @@ L3 programming layer <2025-01-18>
 )
 
 Here is how much of LuaTeX's memory you used:
- 18462 strings out of 475506
+ 18684 strings out of 475506
  125244,953878 words of node,token memory allocated
- 1110 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 230 attribute, 54 glue_sp
-ec, 31 attribute_list, 2 write, 13 user_defined nodes
-   avail lists: 1:28,2:1498,3:13,4:58,5:22,6:4,7:154,8:1,9:76,10:5,11:1
- 40898 multiletter control sequences out of 65536+600000
- 45 fonts using 21414775 bytes
- 125i,6n,128p,1855b,289s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.o
-tf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/haranoaji/HaranoAji
-Mincho-Regular.otf>
-Output written on graphtheory.pdf (1 page, 8084 bytes).
+ 1088 words of node memory still in use:
+   10 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 216 attribute, 56 glue_sp
+ec, 29 attribute_list, 2 write, 13 user_defined nodes
+   avail lists: 1:29,2:22266,3:250,4:237,5:82,6:40,7:2107,8:45,9:895,10:19,11:1
+ 41082 multiletter control sequences out of 65536+600000
+ 79 fonts using 49943399 bytes
+ 125i,7n,128p,1855b,537s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.ot
+f></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.
+otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-regul
+ar.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-bo
+ld.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/haranoaji/Haran
+oAjiGothic-Medium.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/
+lm/lmsans12-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/publi
+c/haranoaji/HaranoAjiMincho-Regular.otf></usr/local/texlive/2025/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy7.pfb>
+Output written on graphtheory.pdf (5 pages, 294963 bytes).
 
-PDF statistics: 25 PDF objects out of 1000 (max. 8388607)
- 15 compressed objects within 1 object stream
+PDF statistics: 109 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
