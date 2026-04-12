@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.10.19)  12 APR 2026 15:58
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.10.19)  13 APR 2026 00:31
  restricted system commands enabled.
  file:line:error style messages enabled.
 **numbertheory.tex
@@ -1066,21 +1066,7 @@ LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-LaTeX Warning: Reference `prop_injectivity_multiplication' on page 2 undefined 
-on input line 171.
-
-
-LaTeX Warning: Reference `prop_injectivity_multiplication' on page 2 undefined 
-on input line 181.
-
-
-
-[2]
-
-LaTeX Warning: Reference `prop_prime_element_mod' on page 3 undefined on input 
-line 207.
-
-(load cache: extra_lmroman7-regular.luc)
+[2](load cache: extra_lmroman7-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 6.47299pt on input line 209.
 
@@ -1090,22 +1076,15 @@ LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 )
 
 Here is how much of LuaTeX's memory you used:
  18537 strings out of 475506
  125244,953878 words of node,token memory allocated
- 1583 words of node memory still in use:
-   11 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 435 attribute, 56 glue_sp
-ec, 51 attribute_list, 2 write, 14 user_defined nodes
-   avail lists: 1:28,2:23645,3:266,4:221,5:131,6:39,7:2770,8:25,9:1014,10:18,11:
+ 1679 words of node memory still in use:
+   11 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 479 attribute, 56 glue_sp
+ec, 55 attribute_list, 2 write, 14 user_defined nodes
+   avail lists: 1:28,2:23597,3:266,4:217,5:131,6:39,7:2770,8:47,9:1014,10:18,11:
 4
  40968 multiletter control sequences out of 65536+600000
  81 fonts using 46556055 bytes
@@ -1123,7 +1102,7 @@ pe1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1
 blic/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy7.pfb>
-Output written on numbertheory.pdf (3 pages, 104716 bytes).
+Output written on numbertheory.pdf (3 pages, 105289 bytes).
 
 PDF statistics: 83 PDF objects out of 1000 (max. 8388607)
  53 compressed objects within 1 object stream
