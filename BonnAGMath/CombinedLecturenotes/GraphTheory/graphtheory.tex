@@ -24,7 +24,7 @@
 \newtheorem{remark}{注釈}[section] 
 \newtheorem{corollary}{系}[section] 
 \newtheorem{terminology}{Terminology}[section] 
-\newtheorem{example}{例題}[section] 
+\newtheorem{example}{例}[section] 
 \newtheorem{step}{手順} 
 \newtheorem{solution}{解答}[section] 
 \newtheorem{fact}{事実}[section] 
@@ -209,6 +209,18 @@ E=\{\{1,2\},\{1,5\},\{2,3\},\{2,5\},\{3,4\},\{4,5\},\{4,6\}\}
 
 
 \begin{definition}
+$A,B$を集合とする。$A$が$B$の部分集合とは、$A$の全ての要素が$B$に含まれている時のことである。これを$A\subseteq B$と書く。
+\end{definition}
+
+\begin{example}
+偶数全ての集合は整数全ての集合の部分集合。もっとわかりやすく、有限の要素を持つ集合については
+\begin{equation*}
+\{1,2,3,4\}\subseteq\{1,2,3,4,5\}
+\end{equation*}
+のように書ける。
+\end{example}
+
+\begin{definition}
 グラフ$(V,E)$の部分グラフ$(V',E')$は$V'\subseteq V,E'\subseteq E$となるようなグラフである。要するに、元のグラフから必要な頂点を辺を選んで作ったグラフのことである。
 \begin{center}
 \begin{figure}[h]
@@ -244,10 +256,76 @@ E=\{\{1,2\},\{1,5\},\{2,3\},\{2,5\},\{3,4\},\{4,5\},\{4,6\}\}
 	\centering
     \includegraphics[scale=0.5]{components}
     \caption{このグラフは三つの連結成分よりなる}
-    \label{fig:my_label}
+    \label{fig:connected_components}
 \end{figure}
 \end{center}
 \end{definition}
 
+\subsection{連結グラフと木}
+
+\begin{definition}
+連結グラフが閉路グラフを部分グラフとしてもたないとき、これを木という。
+\begin{center}
+\begin{figure}[h]
+	\centering
+    \includegraphics[scale=0.2]{tree}
+    \caption{木の例}
+    \label{fig:tree}
+\end{figure}
+\end{center}
+\end{definition}
+\:\\\:
+\begin{remark}
+木の便利な性質の一つに、新しい辺を足すと閉路グラフがことです。例えば$E,F$に辺を足すと$B,E,F$が閉路グラフ$C_3$となります。
+\end{remark}
+
+
+\begin{example}
+最も単純な例として、全て道は木である。
+\end{example}
+
+\begin{definition}
+あるグラフの\ltjruby{全域木}{ぜんいきぎ}とは木である部分グラフで全ての頂点を含むものである。
+\begin{center}
+\begin{figure}[h]
+	\centering
+    \includegraphics[scale=0.5]{spanning_tree}
+    \caption{全域木の例}
+    \label{fig:spanning_tree}
+\end{figure}
+\end{center}
+\end{definition}
+
+微分積分で習った数学的帰納法のおさらいをしましょう。数学的帰納法とはある命題が
+\begin{enumerate}[i).]
+\item $n=1$の時成り立つ、
+\item $n-1$の時成り立つなら$n$の時も成り立つ、
+\end{enumerate}
+を満たす時、その命題は全ての自然数に対して成り立つというものでした。重要なのは何を$n$とするかです。これを使って次のことを証明します。
+
+\begin{theorem}
+もしあるグラフが連結グラフなら、そのグラフは全域木を部分グラフとして持つ。
+\end{theorem}
+
+\begin{proof}
+連結グラフ$G=(V,E)$を考えます。ここで我々が$n$とするのは頂点の個数です。
+\par $n=1$、すなわち頂点の個数が$1$のとき、このグラフは単純グラフなので
+\begin{center}
+\begin{figure}[h]
+	\centering
+    \includegraphics[scale=0.3]{single_vertex}
+    \caption{頂点が一つしかないグラフ}
+    \label{fig:single_vertex}
+\end{figure}
+\end{center}
+このように辺が存在できません。もしあるなら自分自身を繋げるループになってしまいます。よってそのグラフ自身が木となります。
+\par $n-1$のとき成り立つとします。$V=\{1,2,\cdots,n-1,n\}$の$n$個の頂点があるグラフを考えます。$n$番目の頂点を除いた誘導部分グラフを考えます。これは$n-1$この頂点を持つグラフなので全域木が存在します。この部分グラフを$T$とします。この$T$はもちろん$G$の部分グラフでもあります。$G$は連結なので$n$は必ず$T$のどこかの頂点と繋がっています。そのような頂点を一つ選んで$n$と繋がっている辺を追加したグラフ$T'$を考えます。すると$T'$は木となります。よって数学的帰納法により命題が成り立ちます。
+\end{proof}
+
+\subsection{オイラーグラフ}
+
+\begin{definition}
+
+\end{definition}
 
 \end{document}

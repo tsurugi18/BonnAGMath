@@ -145,7 +145,43 @@ f(x) = {\frac {(x-1)(x+1)} {(x+1)}}=(x-1)
 \subsection{$x^n$の微分}
 
 最初に紹介した通り、まっすぐな世界を使って曲がった世界のことを調べることが微分のゴールです。二次関数を考えてみましょう。
+\begin{center}
+\begin{tikzpicture}
+\draw[->,ultra thick] (-4,-1.5)--(4,-1.5) node[right]{$x$};
+\draw[->,ultra thick] (0,-3)--(0,3) node[above]{$y$};
+\draw[thick]  (0,-1.5) parabola (4,0.5);
+\draw[thick] (0,-1.5) parabola (-4,0.5);
+\draw[ultra thick, dotted] (0,-1.5) -- (2,-1)--(4,0.5);
+\end{tikzpicture}
+\end{center}
 
+昔の人は曲がった図形は扱いにくいので、このように直線で形を似せることで計算を楽にしていました。しかし、正確にしようとすればするほど、線が折れている場所を増やす必要があり、どんどん難しくなっていきます。ここで発想を逆転させます。「調べたい部分が小さければ小さいほど、必要な折れた線の数は少なくなるのではないか。」ここで調べたい部分を限りなく小さくすることで、たった一つの直線で正確な計算をできるようにする。これが微分のアイデアです。
+\par このアイデアは何も特別なものではなく、私たちは同じような現象を毎日見ています。地球は本当は丸いボールのような形ですが、私たちの見える世界はとても狭いので、小さな範囲では平らな世界に見えます。
+\par 実際に計算してみましょう。下の図で$h$を限りなく小さくすると、
+
+\begin{center}
+\begin{tikzpicture}
+\draw[->,ultra thick] (-4,-1.5)--(4.5,-1.5) node[right]{$x$};
+\draw[->,ultra thick] (0,-3)--(0,3) node[above]{$y$};
+\draw[thick]  (0,-1.5) parabola (4,0.5);
+\draw[thick] (0,-1.5) parabola (-4,0.5);
+\draw[ultra thick] (0,-2.5) -- (4,0.5);
+\draw[ultra thick, dotted] (2,-1)node[above left]{$(a,a^2)$}--(2,-1.5)[below]node{$a$};
+\draw[ultra thick, dotted] (4,0.5)node[above left]{$(a+h,(a+h)^2)$}--(4,-1.5)[below]node{$a+h$};
+\end{tikzpicture}
+\end{center}
+から
+\begin{center}
+\begin{tikzpicture}
+\draw[->,ultra thick] (-4,-1.5)--(4.5,-1.5) node[right]{$x$};
+\draw[->,ultra thick] (0,-3)--(0,3) node[above]{$y$};
+\draw[thick]  (0,-1.5) parabola (4,0.5);
+\draw[thick] (0,-1.5) parabola (-4,0.5);
+\draw[thick] (0,-2)--(2,-1) -- (4,0);
+\draw[ultra thick, dotted] (2,-1)node[above left]{$(a,a^2)$}--(2,-1.5)[below]node{$a$};
+\end{tikzpicture}
+\end{center}
+のように二次関数にピッタリとくっつく線が描けます。この直線は$(a,a^2)$を通ります。必要なのは傾きだけです。これを計算してみましょう。つぎの公式を使います。
 \begin{equation*}
 (a+b)^2 = a^2+2ab+b^2
 \end{equation*}
@@ -153,13 +189,21 @@ f(x) = {\frac {(x-1)(x+1)} {(x+1)}}=(x-1)
 これを使うと
 
 \begin{align*}
-(x+h)^2 = x^2+2xh+h^2
+(a+h)^2 = a^2+2ah+h^2
 \end{align*}
-よって
+よって最初の図において傾きは
 \begin{equation*}
-\lim_{h\to0} {\frac {(x+h)^2-x^2} {h}} = \lim_{h\to0}{\frac {2hx+h^2} h} = \lim_{h\to0}2x+h = 2x
+{\frac {(a+h)^2-a^2} {h}} 
 \end{equation*}
-
+$h$が限りなく小さくなると、
+\begin{equation*}
+\lim_{h\to0} {\frac {(a+h)^2-a^2} {h}} = \lim_{h\to0}{\frac {2ha+h^2} h} = \lim_{h\to0}2a+h = 2a
+\end{equation*}
+よってこの線は
+\begin{equation*}
+y - a^2 = 2a(x-a)
+\end{equation*}
+というように計算できます。このことをまとめましょう。
 \begin{definition}
 $f(x)$の$a$における微分とは
 \begin{equation*}

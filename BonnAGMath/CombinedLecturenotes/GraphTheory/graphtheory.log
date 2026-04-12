@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.10.19)  12 APR 2026 19:28
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.10.19)  12 APR 2026 23:19
  restricted system commands enabled.
  file:line:error style messages enabled.
 **graphtheory.tex
@@ -1103,29 +1103,69 @@ Package luatex.def Info: ./images/complete_graphs.png  used on input line 204.
 <./images/subgraph.png, id=38, 803.0pt x 401.5pt>
 File: ./images/subgraph.png Graphic file (type png)
 <use ./images/subgraph.png>
-Package luatex.def Info: ./images/subgraph.png  used on input line 216.
+Package luatex.def Info: ./images/subgraph.png  used on input line 228.
 (luatex.def)             Requested size: 240.90186pt x 120.45091pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 <./images/induced_subgraph.png, id=39, 570.13pt x 296.10625pt>
 File: ./images/induced_subgraph.png Graphic file (type png)
 <use ./images/induced_subgraph.png>
-Package luatex.def Info: ./images/induced_subgraph.png  used on input line 228.
+Package luatex.def Info: ./images/induced_subgraph.png  used on input line 240.
 
 (luatex.def)             Requested size: 171.04031pt x 88.83255pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[4<./images/cycles.png><./images/complete_graphs.png>]
+<./images/components.png, id=44, 310.15875pt x 163.61125pt>
+File: ./images/components.png Graphic file (type png)
+<use ./images/components.png>
+Package luatex.def Info: ./images/components.png  used on input line 257.
+(luatex.def)             Requested size: 155.079pt x 81.80542pt.
+<./images/tree.png, id=45, 1027.84pt x 500.87125pt>
+File: ./images/tree.png Graphic file (type png)
+<use ./images/tree.png>
+Package luatex.def Info: ./images/tree.png  used on input line 271.
+(luatex.def)             Requested size: 205.56436pt x 100.17247pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[4<./images/cycles.png><./images/complete_graphs.png><./images/subgraph.png>]
-<./images/components.png, id=44, 310.15875pt x 163.61125pt>
-File: ./images/components.png Graphic file (type png)
-<use ./images/components.png>
-Package luatex.def Info: ./images/components.png  used on input line 245.
-(luatex.def)             Requested size: 155.079pt x 81.80542pt.
+[5<./images/subgraph.png><./images/induced_subgraph.png><./images/components.png
+>](load cache: extra_lmroman7-italic.luc)
+LaTeX Font Info:    Font shape `JT3/mc/m/it' in size <5> not available
+(Font)              Font shape `JT3/mc/m/n' tried instead on input line 288.
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 4.62357pt on input line 288.
+LaTeX Font Info:    Font shape `JY3/mc/m/it' in size <5> not available
+(Font)              Font shape `JY3/mc/m/n' tried instead on input line 288.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 4.62357pt on input line 288.
+<./images/spanning_tree.png, id=51, 513.92pt x 292.09125pt>
+File: ./images/spanning_tree.png Graphic file (type png)
+<use ./images/spanning_tree.png>
+Package luatex.def Info: ./images/spanning_tree.png  used on input line 292.
+(luatex.def)             Requested size: 256.95937pt x 146.04526pt.
+<./images/single_vertex.png, id=52, 250.9375pt x 250.9375pt>
+File: ./images/single_vertex.png Graphic file (type png)
+<use ./images/single_vertex.png>
+Package luatex.def Info: ./images/single_vertex.png  used on input line 316.
+(luatex.def)             Requested size: 75.28181pt x 75.28181pt.
 
 
-[5<./images/induced_subgraph.png><./images/components.png>] (./graphtheory.aux)
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[6<./images/tree.png><./images/spanning_tree.png>]
+
+[7<./images/single_vertex.png>] (./graphtheory.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1133,14 +1173,14 @@ L3 programming layer <2025-01-18>
 )
 
 Here is how much of LuaTeX's memory you used:
- 18684 strings out of 475506
+ 18741 strings out of 475506
  125244,953878 words of node,token memory allocated
- 1088 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 216 attribute, 56 glue_sp
-ec, 29 attribute_list, 2 write, 13 user_defined nodes
-   avail lists: 1:29,2:19196,3:218,4:219,5:82,6:37,7:2056,8:45,9:788,10:19,11:1
- 41082 multiletter control sequences out of 65536+600000
- 79 fonts using 49943399 bytes
+ 1108 words of node memory still in use:
+   10 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 225 attribute, 56 glue_sp
+ec, 30 attribute_list, 2 write, 13 user_defined nodes
+   avail lists: 1:30,2:21922,3:218,4:219,5:88,6:37,7:2159,8:45,9:935,10:26,11:1
+ 41130 multiletter control sequences out of 65536+600000
+ 80 fonts using 50075407 bytes
  125i,7n,128p,1855b,537s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.ot
 f></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.
@@ -1153,12 +1193,13 @@ c/haranoaji/HaranoAjiMincho-Regular.otf></usr/local/texlive/2025/texmf-dist/font
 s/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy7.pfb>
-Output written on graphtheory.pdf (5 pages, 295040 bytes).
+public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy7.pfb>
+Output written on graphtheory.pdf (7 pages, 342539 bytes).
 
-PDF statistics: 109 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+PDF statistics: 125 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.10.19)  12 APR 2026 13:22
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.10.19)  13 APR 2026 00:15
  restricted system commands enabled.
  file:line:error style messages enabled.
 **calculus.tex
@@ -1046,7 +1046,11 @@ LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-[2] (./calculus.aux)
+[2]
+
+[3]
+
+[4] (./calculus.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1054,16 +1058,16 @@ L3 programming layer <2025-01-18>
 )
 
 Here is how much of LuaTeX's memory you used:
- 18513 strings out of 475506
+ 18575 strings out of 475506
  125244,953878 words of node,token memory allocated
- 1451 words of node memory still in use:
-   11 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 376 attribute, 56 glue_sp
-ec, 44 attribute_list, 2 write, 14 user_defined nodes
-   avail lists: 1:27,2:29989,3:240,4:132,5:138,6:32,7:3382,8:55,9:1409,10:19,11:
-1
- 40944 multiletter control sequences out of 65536+600000
+ 1503 words of node memory still in use:
+   11 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 400 attribute, 56 glue_sp
+ec, 46 attribute_list, 2 write, 14 user_defined nodes
+   avail lists: 1:27,2:29963,3:522,4:237,5:84,6:32,7:3382,8:55,9:1409,10:20,11:1
+
+ 41006 multiletter control sequences out of 65536+600000
  77 fonts using 46028599 bytes
- 125i,8n,128p,1852b,349s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 125i,8n,128p,1852b,700s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.o
 tf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.o
 tf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/haranoaji/HaranoAji
@@ -1079,10 +1083,10 @@ sfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/sy
 mbols/msbm10.pfb>
-Output written on calculus.pdf (2 pages, 130092 bytes).
+Output written on calculus.pdf (4 pages, 144381 bytes).
 
-PDF statistics: 85 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+PDF statistics: 91 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
