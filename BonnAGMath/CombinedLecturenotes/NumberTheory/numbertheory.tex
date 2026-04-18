@@ -109,7 +109,50 @@ a\equiv b \mod{n}
 \item 三角形$ABC$は正三角形である（それぞれの辺の長さが等しい）。
 \item 三角形$ABC$の三つの角度が全て等しい（それぞれ$60^\circ$である）。
 \end{enumerate}
+\end{example} 
+
+\begin{proposition}
+$a,b,c$を整数、$n,m$を自然数とする時、次のことが成り立つ。
+\begin{align*}
+a\equiv b \mod{n}&\text{　の時　} a+c\equiv b+c\mod{n},\\
+a\equiv b \mod{n}&\text{　の時　} ac\equiv ac\mod{n},\\
+a\equiv b \mod{n}&\text{　の時　} a^m\equiv b^m\mod{n},\\
+\end{align*}
+\end{proposition}
+
+ここで気をつけたいのは、割り算が必ずしも成り立たないということです。これは後々学びます。
+
+\begin{example}
+$a=3,b=10,c=2,n=7$の時のことを考えてみましょう。$3+2 = 5$で$10+2=12 = 7 +5$なので$3+2$と$10+2$の余りは同じです。また$3\cdot2=6,10\cdot 2 = 20 = 14+6$よって$3\cdot 2$と$10\cdot2$の余りは同じです。このように合同式の計算は足し算掛け算と対応しています。また掛け算に対応しているため、
+\begin{align*}
+3^2 =9=7+2, & 10^2=100 = 7\times 14+2\\
+3^3 =27=7\times 3+6, & 10^3=1000 = 7\times 142+6\\
+&\vdots
+\end{align*}
+のようにるい乗の計算とも対応しています。つまりあまりが同じであればどんな数を使っても問題ないということがわかります。
 \end{example}
+
+\begin{remark}
+例えば$7^5$を$10$で割った余を求める時、合同式を使うと次のように計算できます。
+\begin{align*}
+7 &\equiv 7 \mod{10}\\
+7^2 &\equiv 49 \equiv 9 \mod{10}\\
+7^3 &\equiv 7^2 \cdot 7\equiv 9\cdot 7 \equiv 63 \equiv 3\mod{10}\\
+7^4 & \equiv 7^3\cdot 7 \equiv 3\cdot 7 \equiv 21 \equiv 1\mod{10}\\
+7^5 & \equiv 7^4\cdot 7 \equiv 1 \cdot 7 \equiv 7\mod{10}
+\end{align*}
+実際に$7^5 = 16807$なのでこの計算が正しいことがわかります。
+\end{remark}
+
+\par\textbf{問題2}
+次の合同式を計算せよ
+\begin{align*}
+3^4 \equiv?\mod{5},&\quad3^6 \equiv?\mod{7},\\
+1+2+3+4 \equiv?\mod{5},&\quad1+2+3+4+5+6 \equiv?\mod{7},\\
+1\times 2\times 3\times 4&\equiv?\mod{5},\\
+1\times 2\times 3\times 4\times 5\times 6&\equiv?\mod{7}
+\end{align*}
+ヒント：最後の二問は掛けたらあまりが一になるペアを探してみよう。
 
 \begin{definition}
 整数$p$が素数であるとは、どんな二つの整数$a,b$に対して$ab$が$p$の倍数ならば$a$もしくは$b$が$p$の倍数である時のことである。

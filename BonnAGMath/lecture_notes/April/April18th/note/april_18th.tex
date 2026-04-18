@@ -24,7 +24,7 @@
 \newtheorem{remark}{注釈}[section] 
 \newtheorem{corollary}{系}[section] 
 \newtheorem{terminology}{Terminology}[section] 
-\newtheorem{example}{例題}[section] 
+\newtheorem{example}{例}[section] 
 \newtheorem{step}{手順} 
 \newtheorem{solution}{解答}[section] 
 \newtheorem{fact}{事実}[section] 
@@ -70,14 +70,13 @@
 \newcommand{\tens}[1]{%
   \mathbin{\mathop{\otimes}\displaylimits_{#1}}%
 }
-\title{常微分方程式と物理学}
+\title{授業ノート}
 \author{ボン補習校高校数学}
-\date{}
+\date{４月１８日}
 
 \begin{document}
 
 \maketitle
-
 
 \section{極限の定義と微分}
 人間の体はこの世界のことを知るには全く性能が足りません。この世界を作り出した知性がいるとするならば、人間の能力は憶えられる量も目で終える物体のスピードも、理解できる物事の種類も創造主に遠く及ばないでしょう。しかし、科学者たちは知恵を絞って我々が知れる、理解できる物事の数をどうやって増やせるのかを考えてきました。
@@ -212,22 +211,166 @@ $f(x)$の$a$における微分とは
 である。
 \end{definition}
 
-\par\textbf{問題2積の微分}
-\par 二つの関数$f,g$を考える。${\frac {df} {dx}}(a),{\frac {dg} {dx}}(a)$が計算できるとして。つぎの微分をこの二つで表す方法を考える。
-\par\textbf{ステップ１}
-\begin{equation*}
-{\frac {d(fg)} {dx}}(a) 
-\end{equation*}
-の定義を書け。
-\par\textbf{ステップ２}
-\begin{equation*}
-f(a+h)g(a+h) -f(a)g(a) = f(a+h)g(a+h)-f(a)g(a+h)+f(a)g(a+h)-f(a)g(a)
-\end{equation*}
-と$f(a),g(a)$が定数であることに注意し、また$\lim_{h\to 0}$と足し算掛け算が交換できることにより、
-\begin{equation*}
-{\frac {d(fg)} {dx}}(a)  = {\frac {df} {dx}}(a)g(a)+f(a){\frac {dg} {dx}}(a)
-\end{equation*}
-を証明せよ。（ヒント：$f,g$の微分の定義を書いてみよう。）
 
+\section{グラフとは}
+
+\subsection{いろいろなグラフ}
+
+グラフとは大まかにいうと、点とそれらをつなぐ線でてきた図のことです。例えば以下のような種類があります。
+\begin{example}[単純グラフ]
+もっともシンプルなグラフ。点とそれらをつなぐ線のみで作られている。 後に学びますが異なる点の間にある線は最大で一つのみかつ自分と自分をつなぐ線（ループ）が存在しないようなグラフのことを単純グラフと呼びます。
+\begin{center}
+\begin{figure}[h]
+	\centering
+    \includegraphics[scale=0.175]{graph}
+    \caption{単純グラフ}
+    \label{fig:simp_graph}
+\end{figure}
+\end{center}
+\end{example}
+\begin{example}[有向グラフ]
+線に方向をつけたグラフ。道路などで一方通行の道や、電流、水の流れなど何か方向があるものを表すのに便利。
+\begin{center}
+\begin{figure}[h]
+	\centering
+    \includegraphics[scale=0.3]{directed_graph}
+    \caption{有向グラフ}
+    \label{fig:directed_graph}
+\end{figure}
+\end{center}
+\end{example}
+\begin{example}[重み付きグラフ]
+点を街、線をそれらをつなぐ道路とした時に、移動にかかる時間の情報を線に追加して表すのに便利なグラフ。また流れる電気回路における電気抵抗を考える時などにも便利。
+\begin{center}
+\begin{figure}[h]
+	\centering
+    \includegraphics[scale=0.2]{weighted_graph}
+    \caption{重み付きグラフ}
+    \label{fig:weighted_graph}
+\end{figure}
+\end{center}
+\end{example}
+
+この授業では主に単純グラフのことを勉強します。
+
+\subsection{単純グラフ}
+
+
+
+\begin{definition}
+グラフとは二つの集合のペア$(V,E)$で次の条件を満たすものである。
+\begin{enumerate}[i).]
+\item $V$を頂点の集合といい、$n$個の頂点があることを$V=\{1,2,3,\cdots,n\}$と書く。
+\item $E$を辺の集合といい、二つの頂点$v,w\in V$をつなぐ辺があることを$\{v,w\}\in E$と書く。
+\end{enumerate}
+\end{definition}
+
+この書き方を使って最初の単純グラフ
+\begin{center}
+\begin{figure}[h]
+	\centering
+    \includegraphics[scale=0.14]{graph}
+    \caption{単純グラフ}
+    \label{fig:simplegraph_example}
+\end{figure}
+\end{center}
+を書いてみましょう。全部で$6$個の頂点があるので$V=\{1,\cdots,6\}$。辺は
+\begin{equation*}
+E=\{\{1,2\},\{1,5\},\{2,3\},\{2,5\},\{3,4\},\{4,5\},\{4,6\}\}
+\end{equation*}
+と書ける。
+
+\begin{definition}
+単純グラフとは、グラフのうち次の条件を満たすものである。
+\begin{enumerate}[i).]
+\item 二つの点の間には最大で一つの辺がある。
+\item 自分自身を繋ぐ辺はない。
+\end{enumerate}
+\end{definition}
+
+\begin{example}[単純グラフと非単純グラフ]\:
+\begin{enumerate}
+\item （左）は単純グラフ。
+\item （真ん中）点の間に二つ以上の辺があるので単純グラフではない。
+\item （右）自分自身を繋ぐ辺があるので単純グラフではない。
+\end{enumerate}
+\begin{center}
+\begin{figure}[h]
+	\centering
+    \includegraphics[scale=0.3]{simplegraph}
+    \caption{単純グラフの例}
+    \label{fig:simple_graph}
+\end{figure}
+\end{center}
+\end{example}
+
+単純グラフの中にも様々な形のグラフが存在します。
+
+\begin{definition}
+次のように始まりと終わりがあり、一直線に描けるグラフのことを道という。$n$この頂点を持つ道のことを$P_n$と書く。
+\begin{center}
+\begin{figure}[h]
+	\centering
+    \includegraphics[scale=0.5]{paths}
+    \caption{道の例}
+    \label{fig:path}
+\end{figure}
+\end{center}
+\end{definition}
+
+\begin{definition}
+次のように輪っかのように描けるグラフのことを閉路グラフという。$n$この頂点を持つ閉路グラフのことを$C_n$と書く。
+\begin{center}
+\begin{figure}[h]
+	\centering
+    \includegraphics[scale=0.5]{cycles}
+    \caption{閉路グラフの例}
+    \label{fig:cycle}
+\end{figure}
+\end{center}\end{definition}
+\:\\\\\\\\\\\:
+
+\begin{definition}
+次のように異なる二つの頂点の間に辺がちょうど一つあるグラフを完全グラフという。$n$この頂点を持つ完全グラフのことを$K_n$と書く。
+\begin{center}
+\begin{figure}[h]
+	\centering
+    \includegraphics[scale=0.5]{complete_graphs}
+    \caption{完全グラフの例}
+    \label{fig:complete_graph}
+\end{figure}
+\end{center}\end{definition}
+\section{合同式}
+\subsection{余のある計算}
+
+\begin{definition}
+$n$を自然数とする。整数$a,b$が$n$を法として合同とは
+\begin{equation*}
+b-a=nk
+\end{equation*}
+となる整数$k$が存在することである。これを
+\begin{equation*}
+a\equiv b \mod{n}
+\end{equation*}
+と書く。
+\end{definition}
+
+次の三つは全て同じ意味です。
+\begin{center}
+\begin{enumerate}[1).]
+\item $a,b$は$n$を法として合同。
+\item $b-a$は$n$の倍数。
+\item $a,b$を$n$で割った時の余りが同じ。
+\end{enumerate}
+\end{center}
+
+このように、別の言葉を使って数学的に全く同じことを言える時、それらの条件は\ltjruby{同値}{どうち}であると言います。
+
+\begin{example}他の分野でも上のような同値な条件があります。たとえば、
+\begin{enumerate}[1).]
+\item 三角形$ABC$は正三角形である（それぞれの辺の長さが等しい）。
+\item 三角形$ABC$の三つの角度が全て等しい（それぞれ$60^\circ$である）。
+\end{enumerate}
+\end{example} 
 
 \end{document}
