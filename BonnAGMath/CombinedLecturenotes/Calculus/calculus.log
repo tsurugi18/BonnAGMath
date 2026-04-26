@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.10.19)  13 APR 2026 00:15
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.10.19)  24 APR 2026 02:19
  restricted system commands enabled.
  file:line:error style messages enabled.
 **calculus.tex
@@ -919,52 +919,56 @@ minute'.)
 \c@proposition=\count323
 \c@definition=\count324
 \c@problem=\count325
-\c@postulate=\count326
-\c@lemma=\count327
-\c@notation=\count328
-\c@remark=\count329
-\c@corollary=\count330
-\c@terminology=\count331
-\c@example=\count332
-\c@step=\count333
-\c@solution=\count334
-\c@fact=\count335
- (./calculus.aux)
+\c@exercise=\count326
+\c@postulate=\count327
+\c@lemma=\count328
+\c@notation=\count329
+\c@remark=\count330
+\c@corollary=\count331
+\c@terminology=\count332
+\c@example=\count333
+\c@step=\count334
+\c@solution=\count335
+\c@fact=\count336
+ (./calculus.aux
+
+LaTeX Warning: Label `theorem_limit_properties' multiply defined.
+
+)
 \openout1 = calculus.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-
-(/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+ (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count336
+\scratchcounter=\count337
 \scratchdimen=\dimen286
 \scratchbox=\box84
-\nofMPsegments=\count337
-\nofMParguments=\count338
+\nofMPsegments=\count338
+\nofMParguments=\count339
 \everyMPshowfont=\toks52
-\MPscratchCnt=\count339
+\MPscratchCnt=\count340
 \MPscratchDim=\dimen287
-\MPnumerator=\count340
-\makeMPintoPDFobject=\count341
+\MPnumerator=\count341
+\makeMPintoPDFobject=\count342
 \everyMPtoPDFconversion=\toks53
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -976,70 +980,70 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))(load cache: extra_lmroman17-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 15.97903pt on input line 79.
+(Font)              scaled to size 15.97903pt on input line 85.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 15.97903pt on input line 79.
+(Font)              scaled to size 15.97903pt on input line 85.
 (load cache: extra_lmroman12-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 11.09656pt on input line 79.
+(Font)              scaled to size 11.09656pt on input line 85.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 11.09656pt on input line 79.
+(Font)              scaled to size 11.09656pt on input line 85.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 5.54828pt on input line 79.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 79.
+(Font)              scaled to size 5.54828pt on input line 85.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 85.
 
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 79.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 85.
 
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 79
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 85
 .
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 82.
+(Font)              scaled to size 13.31586pt on input line 90.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 82.
+(Font)              scaled to size 13.31586pt on input line 90.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 82.
+(Font)              scaled to size 13.31586pt on input line 90.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 82.
+(Font)              scaled to size 13.31586pt on input line 90.
 (load cache: extra_haranoajigothic-medium.luc)(load cache: extra_lmsans12-regula
 r.luc)
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 11.09656pt on input line 85.
+(Font)              scaled to size 11.09656pt on input line 93.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 11.09656pt on input line 85.
+(Font)              scaled to size 11.09656pt on input line 93.
 (load cache: extra_lmroman10-italic.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/it' in size <10> not available
-(Font)              Font shape `JT3/mc/m/n' tried instead on input line 87.
+(Font)              Font shape `JT3/mc/m/n' tried instead on input line 95.
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 87.
+(Font)              scaled to size 9.24713pt on input line 95.
 LaTeX Font Info:    Font shape `JY3/mc/m/it' in size <10> not available
-(Font)              Font shape `JY3/mc/m/n' tried instead on input line 87.
+(Font)              Font shape `JY3/mc/m/n' tried instead on input line 95.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 87.
+(Font)              scaled to size 9.24713pt on input line 95.
 (load cache: extra_lmroman10-bold.luc)
 LaTeX Font Info:    Font shape `JT3/mc/b/n' in size <10> not available
-(Font)              Font shape `JT3/gt/m/n' tried instead on input line 88.
+(Font)              Font shape `JT3/gt/m/n' tried instead on input line 96.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 88.
+(Font)              scaled to size 9.24713pt on input line 96.
 LaTeX Font Info:    Font shape `JY3/mc/b/n' in size <10> not available
-(Font)              Font shape `JY3/gt/m/n' tried instead on input line 88.
+(Font)              Font shape `JY3/gt/m/n' tried instead on input line 96.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 88.
+(Font)              scaled to size 9.24713pt on input line 96.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 6.47299pt on input line 92.
+(Font)              scaled to size 6.47299pt on input line 100.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 4.62357pt on input line 92.
+(Font)              scaled to size 4.62357pt on input line 100.
 
 
 [1
@@ -1050,43 +1054,100 @@ LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 
 [3]
 
-[4] (./calculus.aux)
+[4](load cache: extra_lmroman7-italic.luc)
+LaTeX Font Info:    Font shape `JT3/mc/m/it' in size <7> not available
+(Font)              Font shape `JT3/mc/m/n' tried instead on input line 287.
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 6.47299pt on input line 287.
+LaTeX Font Info:    Font shape `JY3/mc/m/it' in size <7> not available
+(Font)              Font shape `JY3/mc/m/n' tried instead on input line 287.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 6.47299pt on input line 287.
+LaTeX Font Info:    Font shape `JT3/mc/m/it' in size <5> not available
+(Font)              Font shape `JT3/mc/m/n' tried instead on input line 287.
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 4.62357pt on input line 287.
+LaTeX Font Info:    Font shape `JY3/mc/m/it' in size <5> not available
+(Font)              Font shape `JY3/mc/m/n' tried instead on input line 287.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 4.62357pt on input line 287.
+
+
+[5](load cache: extra_lmroman7-regular.luc)
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 6.47299pt on input line 346.
+(load cache: extra_lmroman5-regular.luc)
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 4.62357pt on input line 346.
+
+
+[6]
+
+[7]
+
+Package amsmath Warning: Foreign command \atopwithdelims;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 459.
+
+
+
+[8]
+
+[9]
+
+[10]
+
+[11]
+
+[12]
+
+[13] (./calculus.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 )
 
 Here is how much of LuaTeX's memory you used:
- 18575 strings out of 475506
+ 18624 strings out of 475506
  125244,953878 words of node,token memory allocated
- 1503 words of node memory still in use:
-   11 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 400 attribute, 56 glue_sp
-ec, 46 attribute_list, 2 write, 14 user_defined nodes
-   avail lists: 1:27,2:29963,3:522,4:237,5:84,6:32,7:3382,8:55,9:1409,10:20,11:1
+ 3065 words of node memory still in use:
+   11 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 1117 attribute, 56 glue_s
+pec, 110 attribute_list, 2 write, 14 user_defined nodes
+   avail lists: 1:27,2:31018,3:530,4:337,5:416,6:42,7:3499,8:93,9:1501,10:20,11:
+1
+ 41055 multiletter control sequences out of 65536+600000
+ 81 fonts using 46556055 bytes
+ 125i,19n,128p,1852b,700s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.ot
+f></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.
+otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-regul
+ar.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-bo
+ld.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/haranoaji/Haran
+oAjiGothic-Medium.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/
+lm/lmsans12-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/publi
+c/haranoaji/HaranoAjiMincho-Regular.otf></usr/local/texlive/2025/texmf-dist/font
+s/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/ms
+bm10.pfb>
+Output written on calculus.pdf (13 pages, 259475 bytes).
 
- 41006 multiletter control sequences out of 65536+600000
- 77 fonts using 46028599 bytes
- 125i,8n,128p,1852b,700s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.o
-tf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.o
-tf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/haranoaji/HaranoAji
-Gothic-Medium.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/l
-msans12-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/ha
-ranoaji/HaranoAjiMincho-Regular.otf></usr/local/texlive/2025/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/sy
-mbols/msbm10.pfb>
-Output written on calculus.pdf (4 pages, 144381 bytes).
-
-PDF statistics: 91 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+PDF statistics: 150 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 

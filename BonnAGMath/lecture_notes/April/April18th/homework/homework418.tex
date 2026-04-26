@@ -12,7 +12,7 @@
 \usetikzlibrary{graphs}
 \usepackage{luatexja-ruby} 
 \usepackage{graphicx} 
-\graphicspath{ {./images/} }
+\graphicspath{ {./image/} }
 
 \newtheorem{theorem}{定理}[section] 
 \newtheorem{proposition}{命題}[section] 
@@ -84,10 +84,43 @@
 \lim_{x\to2}x+2,\lim_{x\to 2}{\frac {(x+2)(x-2)}{x-2}},\lim_{x\to 0} {\frac {x^2} {x}}
 \end{equation*}
 
+\par\textbf{解答}
+\begin{equation*}
+\lim_{x\to2}x+2=4,\lim_{x\to 2}{\frac {(x+2)(x-2)}{x-2}}=4,\lim_{x\to 0} {\frac {x^2} {x}}=0
+\end{equation*}
+
+土曜日に紹介したことを使うと上の式は次のように証明できます。
+たとえば$a_n = 2 + {\frac 1 n}$というようにすると
+\begin{equation*}
+\lim_{n\to\infty}a_n+2=4 = \lim_{n\to\infty} 4 + {\frac 1 n} = 4+\lim_{n\to\infty}{\frac 1 n} = 4.
+\end{equation*}
+
+\begin{equation*}
+\lim_{n\to\infty}{\frac {(a_n+2)(a_n-2)} {(a_n-2)}} = \lim_{n\to\infty}(a_n+2) = 4
+\end{equation*}
+$c_n = {\frac 1 n}$ とすると
+\begin{equation*}
+\lim_{n\to\infty}{\frac {{\frac 1 {n^2}}} {{\frac 1 n}}} = \lim_{n\to\infty} {\frac 1 n} =0
+\end{equation*}
+
 \par\textbf{問題2}
 次の関数の微分を定義を使って計算せよ。
 \begin{equation*}
 1,x,x^2
+\end{equation*}
+
+\begin{equation*}
+\lim_{h\to0}{\frac {1-1} h} = 0
+\end{equation*}
+
+$h_n = {\frac 1 n}$として計算すると、
+
+\begin{equation*}
+\lim_{n\to\infty}{\frac {x+h_n-x} {h_n}} = \lim_{n\to\infty}{\frac {h_n} {h_n}}=1
+\end{equation*}
+おなじようにして、
+\begin{equation*}
+\lim_{n\to\infty}{\frac {(x+h_n)^2-x^2} {h_n}} = \lim_{n\to\infty}{\frac {x^2+2h_nx+h_n^2-x^2} {h_n}}= \lim_{n\to\infty}{\frac {2h_nx+h_n^2} {h_n}} = \lim_{n\to\infty}2x+h_n = 2x
 \end{equation*}
 
 \par\textbf{問題3}
@@ -95,6 +128,22 @@
 \begin{equation*}
 P_5,C_4,K_4
 \end{equation*}
+
+\begin{center}
+\begin{figure}[h]
+	\centering
+    \includegraphics[scale=0.5]{c_4}
+    \label{fig:subgraph}
+\end{figure}
+\end{center}
+
+\begin{center}
+\begin{figure}[h]
+	\centering
+    \includegraphics[scale=0.5]{P_5}
+    \label{fig:subgraph}
+\end{figure}
+\end{center}
 
 
 \end{document}

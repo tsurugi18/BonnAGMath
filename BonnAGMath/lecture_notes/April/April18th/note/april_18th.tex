@@ -212,6 +212,7 @@ $f(x)$の$a$における微分とは
 \end{definition}
 
 
+
 \section{グラフとは}
 
 \subsection{いろいろなグラフ}
@@ -319,7 +320,7 @@ E=\{\{1,2\},\{1,5\},\{2,3\},\{2,5\},\{3,4\},\{4,5\},\{4,6\}\}
 \end{definition}
 
 \begin{definition}
-次のように輪っかのように描けるグラフのことを閉路グラフという。$n$この頂点を持つ閉路グラフのことを$C_n$と書く。
+次のように輪っかのように描けるグラフで辺を一つ取り除くと道になるグラフのことをサイクルという。$n$この頂点を持つサイクルのことを$C_n$と書く。
 \begin{center}
 \begin{figure}[h]
 	\centering
@@ -340,37 +341,13 @@ E=\{\{1,2\},\{1,5\},\{2,3\},\{2,5\},\{3,4\},\{4,5\},\{4,6\}\}
     \label{fig:complete_graph}
 \end{figure}
 \end{center}\end{definition}
-\section{合同式}
-\subsection{余のある計算}
 
-\begin{definition}
-$n$を自然数とする。整数$a,b$が$n$を法として合同とは
-\begin{equation*}
-b-a=nk
-\end{equation*}
-となる整数$k$が存在することである。これを
-\begin{equation*}
-a\equiv b \mod{n}
-\end{equation*}
-と書く。
-\end{definition}
+\begin{theorem}[握手の定理]
+あるグラフにおいて、頂点の次数の和は辺の数の二倍。
+\end{theorem}
 
-次の三つは全て同じ意味です。
-\begin{center}
-\begin{enumerate}[1).]
-\item $a,b$は$n$を法として合同。
-\item $b-a$は$n$の倍数。
-\item $a,b$を$n$で割った時の余りが同じ。
-\end{enumerate}
-\end{center}
-
-このように、別の言葉を使って数学的に全く同じことを言える時、それらの条件は\ltjruby{同値}{どうち}であると言います。
-
-\begin{example}他の分野でも上のような同値な条件があります。たとえば、
-\begin{enumerate}[1).]
-\item 三角形$ABC$は正三角形である（それぞれの辺の長さが等しい）。
-\item 三角形$ABC$の三つの角度が全て等しい（それぞれ$60^\circ$である）。
-\end{enumerate}
-\end{example} 
+\begin{proof}[証明]
+グラフから辺を全て取り除いたグラフを考える。辺を一つずつ足していき元のグラフを作ることを考える。辺を一つ足すと次数の和は$2$増える。よって全ての辺を戻した時の次数の和は辺の数の二倍。
+\end{proof}
 
 \end{document}
