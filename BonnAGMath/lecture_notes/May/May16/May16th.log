@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.10.19)  15 MAY 2026 09:05
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.10.19)  15 MAY 2026 09:47
  restricted system commands enabled.
  file:line:error style messages enabled.
 **May16th.tex
@@ -1047,29 +1047,29 @@ LaTeX Font Info:    Trying to load font information for U+rsfs on input line 78
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 85.
+(Font)              scaled to size 13.31586pt on input line 80.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 85.
+(Font)              scaled to size 13.31586pt on input line 80.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 85.
+(Font)              scaled to size 13.31586pt on input line 80.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 85.
+(Font)              scaled to size 13.31586pt on input line 80.
 (load cache: extra_haranoajigothic-medium.luc)(load cache: extra_lmsans12-regula
 r.luc)(load cache: extra_lmroman10-bold.luc)
 LaTeX Font Info:    Font shape `JT3/mc/b/n' in size <10> not available
-(Font)              Font shape `JT3/gt/m/n' tried instead on input line 86.
+(Font)              Font shape `JT3/gt/m/n' tried instead on input line 81.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 86.
+(Font)              scaled to size 9.24713pt on input line 81.
 LaTeX Font Info:    Font shape `JY3/mc/b/n' in size <10> not available
-(Font)              Font shape `JY3/gt/m/n' tried instead on input line 86.
+(Font)              Font shape `JY3/gt/m/n' tried instead on input line 81.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 86.
+(Font)              scaled to size 9.24713pt on input line 81.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 6.47299pt on input line 88.
+(Font)              scaled to size 6.47299pt on input line 83.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 4.62357pt on input line 88.
+(Font)              scaled to size 4.62357pt on input line 83.
 
-Overfull \hbox (13.75905pt too wide) detected at line 99
+Overfull \hbox (13.75905pt too wide) detected at line 94
 \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 + 3\OML/cmm/m/it/10 x[] \
 OT1/cmr/m/n/10 + 3\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 + 1)[] = (\OML/cmm/m/it/10
  x[]\OT1/cmr/m/n/10 )[] + (3\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 )[] + (3\OML/cm
@@ -1078,10 +1078,10 @@ m/m/it/10 x\OT1/cmr/m/n/10 )[] + (1)[] = (\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 )[
 
 (load cache: extra_lmroman7-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 6.47299pt on input line 112.
+(Font)              scaled to size 6.47299pt on input line 107.
 (load cache: extra_lmroman5-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 4.62357pt on input line 112.
+(Font)              scaled to size 4.62357pt on input line 107.
 
 
 [1
@@ -1093,91 +1093,89 @@ LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 File: ./../../images/euler_graph_big.png Graphic file (type png)
 <use ./../../images/euler_graph_big.png>
 Package luatex.def Info: ./../../images/euler_graph_big.png  used on input line
- 184.
+ 179.
 (luatex.def)             Requested size: 110.41222pt x 110.41222pt.
 <./../../images/euler_graph_disconnected.png, id=27, 441.65pt x 441.65pt>
 File: ./../../images/euler_graph_disconnected.png Graphic file (type png)
 <use ./../../images/euler_graph_disconnected.png>
 Package luatex.def Info: ./../../images/euler_graph_disconnected.png  used on i
-nput line 192.
+nput line 187.
 (luatex.def)             Requested size: 110.41222pt x 110.41222pt.
-
-
-[3<./../../images/euler_graph_big.png><./../../images/euler_graph_disconnected.p
-ng>]
-<./../../images/cycle_example.png, id=33, 441.65pt x 441.65pt>
+<./../../images/cycle_example.png, id=28, 441.65pt x 441.65pt>
 File: ./../../images/cycle_example.png Graphic file (type png)
 <use ./../../images/cycle_example.png>
-Package luatex.def Info: ./../../images/cycle_example.png  used on input line 2
-02.
+Package luatex.def Info: ./../../images/cycle_example.png  used on input line 1
+97.
 (luatex.def)             Requested size: 110.41222pt x 110.41222pt.
-
-
-./May16th.tex:205: LaTeX Error: \begin{document} ended by \end{center}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.205 \end{center}
-                  
-? 
-./May16th.tex:205: Extra \endgroup.
-\end  ...end#1\endcsname \@checkend {#1}\endgroup 
-                                                  \UseHook {env/#1/after}\if...
-l.205 \end{center}
-                  
-? 
-
-
-[4<./../../images/cycle_example.png>]
-<./../../images/outer_center.png, id=38, 462.72874pt x 461.725pt>
-File: ./../../images/outer_center.png Graphic file (type png)
-<use ./../../images/outer_center.png>
-Package luatex.def Info: ./../../images/outer_center.png  used on input line 28
-0.
-(luatex.def)             Requested size: 115.6819pt x 115.43097pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
+./May16th.tex:200: LaTeX Error: \begin{document} ended by \end{center}.
 
-[5]
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.200 \end{center}
+                  
+? 
+./May16th.tex:200: Extra \endgroup.
+\end  ...end#1\endcsname \@checkend {#1}\endgroup 
+                                                  \UseHook {env/#1/after}\if...
+l.200 \end{center}
+                  
+? 
+
+
+[3<./../../images/euler_graph_big.png><./../../images/euler_graph_disconnected.p
+ng>]
+
+[4<./../../images/cycle_example.png>]
+<./../../images/outer_center.png, id=38, 462.72874pt x 461.725pt>
+File: ./../../images/outer_center.png Graphic file (type png)
+<use ./../../images/outer_center.png>
+Package luatex.def Info: ./../../images/outer_center.png  used on input line 27
+5.
+(luatex.def)             Requested size: 115.6819pt x 115.43097pt.
+
+
+[5<./../../images/outer_center.png>]
 <./../../images/inner_center.png, id=43, 539.01375pt x 338.26375pt>
 File: ./../../images/inner_center.png Graphic file (type png)
 <use ./../../images/inner_center.png>
-Package luatex.def Info: ./../../images/inner_center.png  used on input line 31
-0.
+Package luatex.def Info: ./../../images/inner_center.png  used on input line 30
+5.
 (luatex.def)             Requested size: 134.7531pt x 84.56572pt.
 
 
-[6<./../../images/outer_center.png><./../../images/inner_center.png>]
-Overfull \hbox (62.94308pt too wide) detected at line 369
+[6<./../../images/inner_center.png>]
+Overfull \hbox (62.94308pt too wide) detected at line 364
 [][]
  []
 
 
 
 [7]
-Overfull \hbox (19.6417pt too wide) detected at line 373
+Overfull \hbox (19.6417pt too wide) detected at line 368
 \OT1/cmr/m/n/10 ([]) = ([])
  []
 
 
-Overfull \hbox (32.26523pt too wide) detected at line 377
+Overfull \hbox (32.26523pt too wide) detected at line 372
 [] \OT1/cmr/m/n/10 = [] + ([]) \OMS/cmsy/m/n/10  []
  []
 
 
 
 [8]
-Overfull \hbox (1.88898pt too wide) detected at line 449
+Overfull \hbox (1.88898pt too wide) detected at line 444
 [] [] \OT1/cmr/m/n/10 = ([])\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (0) = ([])[]
  []
 
 
-Overfull \hbox (32.26523pt too wide) detected at line 461
+Overfull \hbox (32.26523pt too wide) detected at line 456
 [] \OT1/cmr/m/n/10 = [] + ([]) \OMS/cmsy/m/n/10  []
  []
 
@@ -1185,121 +1183,114 @@ Overfull \hbox (32.26523pt too wide) detected at line 461
 
 [9](load cache: extra_lmroman10-italic.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/it' in size <10> not available
-(Font)              Font shape `JT3/mc/m/n' tried instead on input line 474.
+(Font)              Font shape `JT3/mc/m/n' tried instead on input line 469.
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 474.
+(Font)              scaled to size 9.24713pt on input line 469.
 LaTeX Font Info:    Font shape `JY3/mc/m/it' in size <10> not available
-(Font)              Font shape `JY3/mc/m/n' tried instead on input line 474.
+(Font)              Font shape `JY3/mc/m/n' tried instead on input line 469.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 474.
+(Font)              scaled to size 9.24713pt on input line 469.
 <./../../images/right_triangle.png, id=58, 287.0725pt x 319.1925pt>
 File: ./../../images/right_triangle.png Graphic file (type png)
 <use ./../../images/right_triangle.png>
 Package luatex.def Info: ./../../images/right_triangle.png  used on input line 
-483.
+478.
 (luatex.def)             Requested size: 71.76794pt x 79.79793pt.
 <./../../images/right_triangle_3.png, id=59, 442.65375pt x 349.305pt>
 File: ./../../images/right_triangle_3.png Graphic file (type png)
 <use ./../../images/right_triangle_3.png>
 Package luatex.def Info: ./../../images/right_triangle_3.png  used on input lin
-e 492.
+e 487.
 (luatex.def)             Requested size: 88.52917pt x 69.85976pt.
-
-
-[10<./../../images/right_triangle.png><./../../images/right_triangle_3.png>](loa
-d cache: extra_lmroman5-bold.luc)
+(load cache: extra_lmroman5-bold.luc)
 LaTeX Font Info:    Font shape `JT3/mc/b/n' in size <5> not available
-(Font)              Font shape `JT3/gt/m/n' tried instead on input line 501.
+(Font)              Font shape `JT3/gt/m/n' tried instead on input line 496.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 4.62357pt on input line 501.
+(Font)              scaled to size 4.62357pt on input line 496.
 LaTeX Font Info:    Font shape `JY3/mc/b/n' in size <5> not available
-(Font)              Font shape `JY3/gt/m/n' tried instead on input line 501.
+(Font)              Font shape `JY3/gt/m/n' tried instead on input line 496.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 4.62357pt on input line 501.
+(Font)              scaled to size 4.62357pt on input line 496.
+
+
+[10<./../../images/right_triangle.png><./../../images/right_triangle_3.png>]
 <./../../images/right_triangle_a.png, id=67, 449.68pt x 361.35pt>
 File: ./../../images/right_triangle_a.png Graphic file (type png)
 <use ./../../images/right_triangle_a.png>
 Package luatex.def Info: ./../../images/right_triangle_a.png  used on input lin
-e 506.
+e 501.
 (luatex.def)             Requested size: 89.9344pt x 72.2687pt.
 <./../../images/typical_triangles.png, id=68, 634.37pt x 295.1025pt>
 File: ./../../images/typical_triangles.png Graphic file (type png)
 <use ./../../images/typical_triangles.png>
 Package luatex.def Info: ./../../images/typical_triangles.png  used on input li
-ne 523.
+ne 518.
 (luatex.def)             Requested size: 253.7435pt x 118.0389pt.
 <./../../images/circular_angle.png, id=69, 477.785pt x 385.44pt>
 File: ./../../images/circular_angle.png Graphic file (type png)
 <use ./../../images/circular_angle.png>
 Package luatex.def Info: ./../../images/circular_angle.png  used on input line 
-532.
+527.
 (luatex.def)             Requested size: 119.44595pt x 96.35976pt.
+File: ./../../images/outer_center.png Graphic file (type png)
+<use ./../../images/outer_center.png>
+Package luatex.def Info: ./../../images/outer_center.png  used on input line 53
+5.
+(luatex.def)             Requested size: 115.6819pt x 115.43097pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 
 [11<./../../images/right_triangle_a.png><./../../images/typical_triangles.png><.
 /../../images/circular_angle.png>]
-File: ./../../images/outer_center.png Graphic file (type png)
-<use ./../../images/outer_center.png>
-Package luatex.def Info: ./../../images/outer_center.png  used on input line 54
-0.
-(luatex.def)             Requested size: 115.6819pt x 115.43097pt.
 <./../../images/connected_graph_5_16.png, id=77, 441.65pt x 441.65pt>
 File: ./../../images/connected_graph_5_16.png Graphic file (type png)
 <use ./../../images/connected_graph_5_16.png>
 Package luatex.def Info: ./../../images/connected_graph_5_16.png  used on input
- line 557.
+ line 552.
 (luatex.def)             Requested size: 110.41222pt x 110.41222pt.
 <./../../images/tree_graph_5_16.png, id=78, 441.65pt x 441.65pt>
 File: ./../../images/tree_graph_5_16.png Graphic file (type png)
 <use ./../../images/tree_graph_5_16.png>
 Package luatex.def Info: ./../../images/tree_graph_5_16.png  used on input line
- 565.
+ 560.
 (luatex.def)             Requested size: 110.41222pt x 110.41222pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 <./../../images/disconnected_graph_5_16.png, id=79, 441.65pt x 441.65pt>
 File: ./../../images/disconnected_graph_5_16.png Graphic file (type png)
 <use ./../../images/disconnected_graph_5_16.png>
 Package luatex.def Info: ./../../images/disconnected_graph_5_16.png  used on in
-put line 573.
+put line 568.
 (luatex.def)             Requested size: 110.41222pt x 110.41222pt.
 (load cache: extra_lmroman9-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 8.32242pt on input line 575.
+(Font)              scaled to size 8.32242pt on input line 570.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 8.32242pt on input line 575.
+(Font)              scaled to size 8.32242pt on input line 570.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./../../images/acyclic_graph_5_16.png, id=80, 441.65pt x 441.65pt>
+[12<./../../images/connected_graph_5_16.png><./../../images/tree_graph_5_16.png>
+]
+<./../../images/acyclic_graph_5_16.png, id=85, 441.65pt x 441.65pt>
 File: ./../../images/acyclic_graph_5_16.png Graphic file (type png)
 <use ./../../images/acyclic_graph_5_16.png>
 Package luatex.def Info: ./../../images/acyclic_graph_5_16.png  used on input l
-ine 581.
+ine 576.
 (luatex.def)             Requested size: 110.41222pt x 110.41222pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: ./../../images/tree_graph_5_16.png Graphic file (type png)
 <use ./../../images/tree_graph_5_16.png>
 Package luatex.def Info: ./../../images/tree_graph_5_16.png  used on input line
- 589.
+ 584.
 (luatex.def)             Requested size: 88.32843pt x 88.32843pt.
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 4.16121pt on input line 591.
+(Font)              scaled to size 4.16121pt on input line 586.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 4.16121pt on input line 591.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+(Font)              scaled to size 4.16121pt on input line 586.
 
 
-
-[12<./../../images/connected_graph_5_16.png>]
-
-[13<./../../images/tree_graph_5_16.png><./../../images/disconnected_graph_5_16.p
-ng><./../../images/acyclic_graph_5_16.png>]
+[13<./../../images/disconnected_graph_5_16.png><./../../images/acyclic_graph_5_1
+6.png>]
 
 [14] (./May16th.aux)
  ***********
@@ -1314,11 +1305,11 @@ LaTeX Warning: There were multiply-defined labels.
 
 Here is how much of LuaTeX's memory you used:
  18905 strings out of 475506
- 156564,953878 words of node,token memory allocated
- 2564 words of node memory still in use:
-   11 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 892 attribute, 55 glue_sp
+ 156557,953878 words of node,token memory allocated
+ 2569 words of node memory still in use:
+   11 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 892 attribute, 56 glue_sp
 ec, 87 attribute_list, 2 write, 14 user_defined nodes
-   avail lists: 1:39,2:39859,3:682,4:373,5:309,6:43,7:3732,8:124,9:1842,10:37,11
+   avail lists: 1:56,2:42006,3:802,4:381,5:383,6:37,7:4037,8:122,9:2034,10:37,11
 :1
  41288 multiletter control sequences out of 65536+600000
  90 fonts using 54539615 bytes
@@ -1344,7 +1335,7 @@ msy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.
 pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam
 10.pfb>
-Output written on May16th.pdf (14 pages, 492322 bytes).
+Output written on May16th.pdf (14 pages, 488696 bytes).
 
 PDF statistics: 182 PDF objects out of 1000 (max. 8388607)
  102 compressed objects within 2 object streams
