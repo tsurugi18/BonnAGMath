@@ -110,11 +110,64 @@ $90^\circ$ & $1$                    & $0$                    \\ \hline
 \end{figure}
 \end{center}
 
+上の図で点$A$から向かい合う辺$OB$に垂直な線を引き、その交点を$E$とすると$\triangle OAE$は斜辺が$1$の直角三角形で
+\begin{equation*}
+\angle AOE=a+b
+\end{equation*}
+となるので、
+\begin{equation*}
+AE = \sin(a+b)
+\end{equation*}
+$\square ADCE$は長方形なので
+\begin{equation*}
+AE = DC = DB+BC
+\end{equation*}
+なので$DB,BC$の長さをまず求める。
+ここで$\triangle BOC$に注目すると
+\begin{equation*}
+BO = \cos(a)
+\end{equation*}
+なので
+\begin{equation*}
+BC = \cos(a)\sin(b)
+\end{equation*}
+$\triangle ABD$に注目する。一番下の三角形より、
+\begin{equation*}
+b+\angle OBC+90^\circ  = 180^\circ
+\end{equation*}
+点$B$の周りに注目して
+\begin{equation*}
+\angle OBC + 90^\circ + \angle ABD = 180^\circ
+\end{equation*}
+なので二つの式を比べると、
+\begin{equation*}
+b = \angle ABD
+\end{equation*}
+となります。ここで
+\begin{equation*}
+AB = \sin(a)
+\end{equation*}
+なことに気をつけ、$\triangle ABD$は直角三角形より
+\begin{equation*}
+BD = \sin(a)\cos(b)
+\end{equation*}
+となります。最後に二つを足し合わせて、
+\begin{equation*}
+AE = DB+BC = \sin(a)\cos(b)+\cos(a)\sin(b)
+\end{equation*}
+となります。
 \par\textbf{問題：}次の計算をしてみよう
 
 \begin{equation*}
 \sin(75^\circ)=?,\quad \sin(15^\circ)=?
 \end{equation*}
+\par\textbf{解答：}\\
+\begin{align*}
+\sin(75^\circ)& = \sin(30^\circ+45^\circ),\\
+& = \sin(30^\circ)\cos(45^\circ)+\sin(45^\circ)\cos(30^\circ),\\
+& = 
+\end{align*}
+
 次の図を見てみよう。
 
 \begin{center}
